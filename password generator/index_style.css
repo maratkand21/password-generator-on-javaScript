@@ -1,0 +1,109 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+
+html,body{
+	background: linear-gradient(#353388, #29276A);
+
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+ul {list-style: none;}
+
+.generator {
+	color: #EEEEEE;
+	margin: 50px auto;
+	background-color: #1F1F4F;
+	border: 1px solid #2C2D69;
+	width: 400px;
+	height: 350px;
+}
+.logo {
+	font-size: 30px;
+	font-family: 'arial';
+	text-align: center;
+	margin: 20px;
+}
+
+.wrapper-parameters {
+	margin: auto;
+	width: 330px;
+	height: 270px;
+}
+
+
+#password {
+	color: #EEEEEE;
+	display: block;
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	margin: auto;
+	padding: 10px;
+	border: 1px solid #17173A;
+	background-color: #14142E;
+}
+
+#password:hover {
+	background-color: #1C1C41;
+	border: 1px solid #080815;
+}
+#copy {
+	color: #EEEEEE;
+	display: block;
+	margin: auto;
+	width: 80px;
+	height: 20px;
+	font-size: 20px;
+	background-color: transparent;
+}
+.parameters {
+	position: relative;
+}
+.parameters li {
+	margin: 7px;
+	font-size: 20px;
+}
+#password-length {
+	width: 40px;
+	font-size: 20px;
+}
+.parameters input {
+	background-color: #F7EEC9;
+	margin: 10px 10px;
+	position: absolute;
+	right: 0;
+}
+
+#create-password {
+	color: #EEEEEE;
+	background-color: #2B296E;
+	border: 1px solid #1D1D58;
+	display: block;
+	width: 100%;
+	height: 40px;
+	font-size: 30px;
+	margin: auto;
+}
+#create-password:hover {
+	background: linear-gradient(#3E3A9D, #363388);
+}
