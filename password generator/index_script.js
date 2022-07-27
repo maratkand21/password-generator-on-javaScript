@@ -52,7 +52,7 @@ function checkPasswordLengthValue (event) {
 	}
 	else {
 		passwordLength.value = '8';
-		console.log('Зачем тебе такой длинный пароль???');
+		console.log('Why do you need such a long password???');
 	}
 }
 
